@@ -1,9 +1,7 @@
 fastapi
 uvicorn
-pillow
 torch
-transformers
-opencv-python
-numpy
-scikit-learn
-aiofiles
+pillow
+python-multipart
+tqdm
+git+https://github.com/openai/CLIP.git

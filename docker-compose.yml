@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  nsfw_detector:
+    build: .
+    container_name: nsfw_clip_service
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
